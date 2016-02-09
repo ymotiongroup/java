@@ -1,0 +1,14 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <include file="example.xml"/>
+    <!-- Configuration for the default package. -->
+    <package name="login" namespace="/Login" extends="struts-default">
+        <action name="InicioSesion" class="usuarios.bean.Login">
+            <result name="sucess">../index.jsp</result>
+            <result name="error">../index.jsp</result>
+        </action>
+    </package>
+</struts>

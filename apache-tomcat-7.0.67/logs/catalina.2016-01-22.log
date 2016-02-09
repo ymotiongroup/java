@@ -1,0 +1,278 @@
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server version:        Apache Tomcat/7.0.67
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Dec 7 2015 13:07:11 UTC
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server number:         7.0.67.0
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Mac OS X
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Version:            10.11
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Architecture:          x86_64
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_66-b17
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Vendor:            Oracle Corporation
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/logging.properties
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|MacBook-Air-de-ivan.local
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.endorsed.dirs=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/endorsed
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/temp
+ene 22, 2016 10:41:14 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: /Users/ivan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ene 22, 2016 10:41:14 AM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 10:41:14 AM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 1155 ms
+ene 22, 2016 10:41:14 AM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+ene 22, 2016 10:41:14 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.67
+ene 22, 2016 10:41:14 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/es.aulamentor.xml
+ene 22, 2016 10:41:15 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/es.aulamentor.xml has finished in 551 ms
+ene 22, 2016 10:41:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/docs de la aplicación web
+ene 22, 2016 10:41:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/docs has finished in 100 ms
+ene 22, 2016 10:41:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/examples de la aplicación web
+ene 22, 2016 10:41:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/examples has finished in 451 ms
+ene 22, 2016 10:41:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/host-manager de la aplicación web
+ene 22, 2016 10:41:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/host-manager has finished in 104 ms
+ene 22, 2016 10:41:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/manager de la aplicación web
+ene 22, 2016 10:41:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/manager has finished in 175 ms
+ene 22, 2016 10:41:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/ROOT de la aplicación web
+ene 22, 2016 10:41:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/ROOT has finished in 115 ms
+ene 22, 2016 10:41:16 AM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 10:41:16 AM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 10:41:16 AM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 1606 ms
+ene 22, 2016 10:41:17 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/MVC.xml
+ene 22, 2016 10:41:17 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/MVC.xml has finished in 64 ms
+ene 22, 2016 10:41:17 AM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MVC]] after start() had already been called. The second call will be ignored.
+ene 22, 2016 10:45:30 AM org.apache.catalina.core.StandardServer await
+INFORMACIÓN: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+ene 22, 2016 10:45:30 AM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 10:45:31 AM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 10:45:31 AM org.apache.catalina.core.StandardService stopInternal
+INFORMACIÓN: Parando servicio Catalina
+ene 22, 2016 10:45:31 AM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 10:45:31 AM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 10:45:31 AM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 10:45:31 AM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server version:        Apache Tomcat/7.0.67
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Dec 7 2015 13:07:11 UTC
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server number:         7.0.67.0
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Mac OS X
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Version:            10.11
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Architecture:          x86_64
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_66-b17
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Vendor:            Oracle Corporation
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/logging.properties
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|MacBook-Air-de-ivan.local
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.endorsed.dirs=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/endorsed
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=/Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/temp
+ene 22, 2016 11:23:32 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: /Users/ivan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+ene 22, 2016 11:23:32 AM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 11:23:32 AM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 1673 ms
+ene 22, 2016 11:23:32 AM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+ene 22, 2016 11:23:32 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.67
+ene 22, 2016 11:23:32 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/es.aulamentor.xml
+ene 22, 2016 11:23:33 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/es.aulamentor.xml has finished in 598 ms
+ene 22, 2016 11:23:33 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/MVC.xml
+ene 22, 2016 11:23:33 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/MVC.xml has finished in 144 ms
+ene 22, 2016 11:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/docs de la aplicación web
+ene 22, 2016 11:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/docs has finished in 105 ms
+ene 22, 2016 11:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/examples de la aplicación web
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/examples has finished in 439 ms
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/host-manager de la aplicación web
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/host-manager has finished in 136 ms
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/manager de la aplicación web
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/manager has finished in 146 ms
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/ROOT de la aplicación web
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/webapps/ROOT has finished in 88 ms
+ene 22, 2016 11:23:34 AM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 11:23:34 AM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 11:23:34 AM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 1785 ms
+ene 22, 2016 11:23:35 AM org.apache.catalina.startup.HostConfig undeploy
+INFORMACIÓN: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /MVC
+ene 22, 2016 11:23:35 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/MVC.xml
+ene 22, 2016 11:23:35 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor /Users/ivan/Documents/netbeans/apache-tomcat-7.0.67/conf/Catalina/localhost/MVC.xml has finished in 95 ms
+ene 22, 2016 11:23:35 AM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/MVC]] after start() had already been called. The second call will be ignored.
+ene 22, 2016 12:10:09 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 12:10:09 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 12:19:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 12:19:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 12:21:26 PM org.apache.catalina.startup.HostConfig reload
+INFORMACIÓN: Falló la recarga del contexto [/MVC]
+ene 22, 2016 12:21:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 12:21:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:06:53 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:06:53 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:07:33 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:07:33 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:07:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:07:41 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:09:36 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:09:36 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:17:08 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:17:08 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:18:47 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:18:47 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:29:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:29:26 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:29:57 PM org.apache.catalina.startup.HostConfig reload
+INFORMACIÓN: Falló la recarga del contexto [/MVC]
+ene 22, 2016 1:29:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:29:57 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:35:12 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:35:12 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:35:20 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:35:20 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:37:04 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:37:04 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:38:06 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:38:06 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:39:01 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:39:01 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 1:39:27 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Ha comenzado la recarga de Contexto [/MVC]
+ene 22, 2016 1:39:27 PM org.apache.catalina.core.StandardContext reload
+INFORMACIÓN: Se ha completado la recarga de este Contexto
+ene 22, 2016 3:05:23 PM org.apache.catalina.core.StandardServer await
+INFORMACIÓN: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+ene 22, 2016 3:05:23 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 3:05:23 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 3:05:23 PM org.apache.catalina.core.StandardService stopInternal
+INFORMACIÓN: Parando servicio Catalina
+ene 22, 2016 3:05:24 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 3:05:24 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["ajp-bio-8009"]
+ene 22, 2016 3:05:24 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["http-bio-8080"]
+ene 22, 2016 3:05:24 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["ajp-bio-8009"]
